@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.andresual.com.kasirtoko.LaporanHarian">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/relativeLayout2">
+
+        <TextView
+            android:id="@+id/tv_periode_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Periode Tanggal : "
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_action_laporan"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignStart="@+id/relativeLayout2"
+        android:layout_alignEnd="@+id/relativeLayout2">
+
+
+        <Button
+            android:id="@+id/button_share_harian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/dataBarangColorPrimaryDark"
+            android:fontFamily="sans-serif"
+            android:textColor="#c7c6c6"
+            android:textSize="10sp"
+            android:text="Share"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:drawableLeft="@drawable/ic_menu_share"
+            android:drawableTint="#c7c6c6"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Print"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:id="@+id/button_tampilkan_harian"
+            android:textColor="#c7c6c6"
+            android:background="@color/dataBarangColorPrimaryDark"
+            android:layout_alignParentTop="true"
+            android:drawableLeft="@drawable/ic_print_black_24dp"
+            android:layout_toStartOf="@+id/button_share_harian"
+            android:drawableTint="#c7c6c6"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_action_laporan"
+        android:layout_marginTop="10dp"
+        android:layout_alignEnd="@+id/button_action_laporan"
+        android:layout_alignStart="@+id/button_action_laporan"
+        android:id="@+id/relativeLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAPORAN HARIAN"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_alignStart="@+id/relativeLayout3"
+        android:id="@+id/relativeLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_alignEnd="@+id/relativeLayout3"
+        android:layout_toEndOf="@+id/relativeLayout4"
+        android:id="@+id/relativeLayout5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PERIODE "
+            android:layout_centerInParent="true"
+            android:textSize="11dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dataBarangColorPrimaryDark"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_alignEnd="@+id/relativeLayout5"
+        android:layout_toEndOf="@+id/relativeLayout4"
+        android:layout_marginTop="5dp"
+        android:id="@+id/relativeLayout6">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/relativeLayout6"
+        android:layout_alignEnd="@+id/relativeLayout6"
+        android:layout_toEndOf="@+id/relativeLayout4"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp">
+
+        <TextView
+            android:id="@+id/jumlah_transaksi_harian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Transaksi"/>
+
+        <TextView
+            android:id="@+id/jumlah_item_harian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Item(s)"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp"
+            android:layout_alignEnd="@+id/jumlah_transaksi_harian" />
+
+        <TextView
+            android:id="@+id/jumlah_porsi_harian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Porsi"
+            android:layout_below="@+id/jumlah_item_harian"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/simbol2" />
+
+        <TextView
+            android:id="@+id/jumlah_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:layout_below="@+id/jumlah_porsi_harian"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:layout_toStartOf="@+id/simbol3" />
+
+        <TextView
+            android:id="@+id/simbol1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     :     "
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/jumlah_transaksi_harian"
+            android:layout_above="@+id/simbol2" />
+
+        <TextView
+            android:id="@+id/simbol2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     :     "
+            android:textAlignment="center"
+            android:layout_below="@+id/jumlah_transaksi_harian"
+            android:layout_toEndOf="@+id/jumlah_item_harian" />
+
+        <TextView
+            android:id="@+id/simbol3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     :     "
+            android:textAlignment="center"
+            android:layout_below="@+id/simbol2"
+            android:layout_toEndOf="@+id/jumlah_porsi_harian" />
+
+        <TextView
+            android:id="@+id/simbol4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     :     "
+            android:textAlignment="center"
+            android:layout_below="@+id/simbol3"
+            android:layout_toEndOf="@+id/jumlah_total" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dataBarangColorPrimaryDark"
+        android:id="@+id/relativeLayout8"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_alignEnd="@+id/relativeLayout6"
+        android:layout_toEndOf="@+id/relativeLayout4">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_alignStart="@+id/relativeLayout7"
+        android:layout_alignEnd="@+id/relativeLayout7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Tanggal     "
+            android:id="@+id/tv_tanggal_harian" />
+
+        <TextView
+            android:id="@+id/tv_transaksi_harian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transaksi     "
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/tv_tanggal_harian" />
+
+        <TextView
+            android:id="@+id/tv_porsi_harian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Porsi     "
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/tv_transaksi_harian" />
+
+        <TextView
+            android:id="@+id/tv_total_harian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/tv_porsi_harian" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dataBarangColorPrimaryDark"
+        android:id="@+id/relativeLayout10"
+        android:layout_below="@+id/relativeLayout9"
+        android:layout_alignStart="@+id/relativeLayout8"
+        android:layout_marginTop="5dp"
+        android:layout_alignEnd="@+id/relativeLayout8">
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/relativeLayout10"
+        android:layout_marginTop="5dp"
+        android:layout_alignStart="@+id/relativeLayout9"
+        android:layout_alignEnd="@+id/relativeLayout9">
+    </TableLayout>
+</RelativeLayout>

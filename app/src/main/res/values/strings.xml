@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Kasir Toko</string>
+    <string name="data_barang_title">Tambah Data</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //actions
+    <string name="action_reset">Reset</string>
+    <string name="action_save">Save</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_export">Export</string>
+    <string name="action_delete">Delete</string>
+
+    //textView
+    <string name="text_transaksi">Transaksi </string>
+    <string name="no_text_transaksi"> </string>
+    <string name="text_harga">Rp. </string>
+    <string name="text_nominal"> </string>
+    <string name="tanggal_transaksi"> </string>
+    <string name="jam_transaksi"> </string>
+    <string name="empty_view_title_text">Daftar makanan masih kosong...</string>
+    <string name="empty_view_subtitle_text">Get started by adding a dish</string>
+
+    //unit
+    <string name="unit_rupiah">Rp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //toast message
+    <string name="fragment_data_barang_input_berhasil">Barang tersimpan</string>
+    <string name="fragment_data_barang_input_gagal">Barang gagal disimpan</string>
+    <string name="fragment_data_barang_delete_berhasil">Barang dihapus</string>
+    <string name="fragment_data_barang_delete_gagal">Delete gagal</string>
+    <string name="fragment_transaksi_input_berhasil">Transaksi tersimpan</string>
+    <string name="fragment_transaksi_input_gagal">Transaksi gagal disimpan</string>
+
+    //dialog message
+    <string name="unsaved_changes_dialog_msg">Batalkan perubahan dan keluar ?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Tetap disini</string>
+    <string name="delete_dialog_msg">Hapus barang ini ?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Batalkan</string>
+
+</resources>

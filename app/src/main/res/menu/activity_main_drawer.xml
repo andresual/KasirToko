@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_transaksi"
+            android:icon="@drawable/ic_shopping_basket_white_24dp"
+            android:title="Transaksi" />
+        <item
+            android:id="@+id/nav_data_barang"
+            android:icon="@drawable/ic_storage_white_24dp"
+            android:title="Data Barang" />
+        <item
+            android:id="@+id/nav_laporan"
+            android:icon="@drawable/ic_date_range_white_24dp"
+            android:title="Laporan" />
+        <item
+            android:id="@+id/nav_pengaturan_toko"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Pengaturan Toko" />
+        
+    </group>
+
+    <item android:title="Lain-Lain">
+        <menu>
+            <item
+                android:id="@+id/nav_user_guide"
+                android:icon="@drawable/ic_help_white_24dp"
+                android:title="User Guide" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_white_24dp"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

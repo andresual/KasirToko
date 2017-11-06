@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.andresual.com.kasirtoko.FragmentTransaksi"
+    style="@style/fragmentTheme">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/text_transaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/text_transaksi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/no_transaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/text_transaksi"
+            android:layout_marginTop="10sp"
+            android:text="@string/no_text_transaksi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_nominal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/no_transaksi"
+            android:layout_alignBottom="@+id/no_transaksi"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10sp"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text_nominal"
+            android:layout_alignBottom="@+id/text_nominal"
+            android:layout_toStartOf="@+id/text_nominal"
+            android:text="@string/text_harga"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/waktu_transaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/text_transaksi"
+            android:layout_below="@+id/text_transaksi"
+            android:textStyle="italic"
+            android:text="                  "/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:textColor="#ffffff"
+            android:background="@color/accent_material_light"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/waktu_transaksi" />
+
+        <Button
+            android:id="@+id/btn_reset_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:textColor="#ffffff"
+            android:background="@color/dataBarangColorPrimaryDark"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/btn_submit"
+            android:layout_alignTop="@+id/btn_submit"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="100dp">
+
+        <ListView
+            android:id="@+id/list_transaksi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"/>
+    </RelativeLayout>
+</FrameLayout>

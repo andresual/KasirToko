@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.andresual.com.kasirtoko.FragmentTransaksi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="#2B3D4D"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btn_kurang"
+            android:layout_width="48dp"
+            android:layout_height="32dp"
+            android:text="-"
+            android:onClick="btnOperator"
+            android:textSize="12sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/value_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_tambah"
+            android:layout_width="48dp"
+            android:layout_height="32dp"
+            android:text="+"
+            android:onClick="btnOperator"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:focusable="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Satuan : "
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/text_unit_rp"
+        android:layout_alignBottom="@+id/text_unit_rp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. "
+        android:textStyle="italic"
+        android:id="@+id/text_unit_rp_item"
+        android:layout_alignBaseline="@+id/total"
+        android:layout_alignBottom="@+id/total"
+        android:layout_toStartOf="@+id/total" />
+
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="#AEB6BD"
+        android:layout_alignBaseline="@+id/text_unit_rp"
+        android:layout_alignBottom="@+id/text_unit_rp"
+        android:layout_toEndOf="@+id/text_unit_rp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+        android:layout_gravity="end"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="#AEB6BD"
+        android:layout_below="@+id/summary"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/text_total_per_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total : "
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/text_unit_rp_item"
+        android:layout_alignBottom="@+id/text_unit_rp_item"
+        android:layout_toStartOf="@+id/text_unit_rp_item" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. "
+        android:textStyle="italic"
+        android:id="@+id/text_unit_rp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_toEndOf="@+id/text_summary" />
+
+</RelativeLayout>

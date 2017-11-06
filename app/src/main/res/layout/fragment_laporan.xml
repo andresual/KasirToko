@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.andresual.com.kasirtoko.fragmentLaporan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp">
+        <Button
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dataBarangColorPrimaryDark"
+            android:text="Laporan transaksi"
+            android:textColor="#c7c6c6"
+            android:id="@+id/btn_laporan_transaksi" />
+
+        <Button
+            android:id="@+id/btn_laporan_harian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dataBarangColorPrimaryDark"
+            android:text="Laporan Harian"
+            android:textColor="#c7c6c6"
+            android:layout_below="@id/btn_laporan_transaksi"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/btn_laporan_bulanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dataBarangColorPrimaryDark"
+            android:text="Laporan Bulanan"
+            android:textColor="#c7c6c6"
+            android:layout_below="@+id/btn_laporan_harian"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+</FrameLayout>

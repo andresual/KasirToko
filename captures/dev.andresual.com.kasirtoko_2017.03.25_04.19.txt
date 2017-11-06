@@ -1,0 +1,174 @@
+CURRENT STATS:
+Per-Package Stats:
+  * dev.andresual.com.kasirtoko / u0a561 / v1:
+      * dev.andresual.com.kasirtoko / u0a561 / v1:
+               TOTAL: 100% (38MB-38MB-38MB/33MB-33MB-33MB over 1)
+                 Top: 100% (38MB-38MB-38MB/33MB-33MB-33MB over 1)
+
+Summary:
+  * dev.andresual.com.kasirtoko / u0a561 / v1:
+           TOTAL: 100% (38MB-38MB-38MB/33MB-33MB-33MB over 1)
+             Top: 100% (38MB-38MB-38MB/33MB-33MB-33MB over 1)
+
+Run time Stats:
+  SOn /Norm: +37s957ms (running)
+      TOTAL: +37s957ms
+
+Memory usage:
+  TOTAL  : 0.00
+
+          Start time: 2017-03-25 04:18:30
+  Total elapsed time: +37s962ms (partial) libart.so
+
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOff/Norm: 13 samples:
+    Cached: 384MB min, 534MB avg, 722MB max
+    Free: 22MB min, 158MB avg, 481MB max
+    ZRam: 6.9MB min, 41MB avg, 99MB max
+    Kernel: 131MB min, 145MB avg, 186MB max
+    Native: 108MB min, 130MB avg, 197MB max
+       Mod : 1 samples:
+    Cached: 653MB min, 653MB avg, 653MB max
+    Free: 253MB min, 253MB avg, 253MB max
+    ZRam: 21MB min, 21MB avg, 21MB max
+    Kernel: 131MB min, 131MB avg, 131MB max
+    Native: 118MB min, 118MB avg, 118MB max
+  SOn /Norm: 9 samples:
+    Cached: 152MB min, 486MB avg, 631MB max
+    Free: 19MB min, 126MB avg, 377MB max
+    ZRam: 4.9MB min, 34MB avg, 97MB max
+    Kernel: 134MB min, 145MB avg, 158MB max
+    Native: 108MB min, 124MB avg, 189MB max
+       Mod : 14 samples:
+    Cached: 79MB min, 451MB avg, 672MB max
+    Free: 24MB min, 145MB avg, 293MB max
+    ZRam: 20MB min, 48MB avg, 104MB max
+    Kernel: 131MB min, 148MB avg, 204MB max
+    Native: 106MB min, 117MB avg, 130MB max
+       Low : 2 samples:
+    Cached: 591MB min, 626MB avg, 660MB max
+    Free: 22MB min, 149MB avg, 275MB max
+    ZRam: 21MB min, 59MB avg, 97MB max
+    Kernel: 129MB min, 138MB avg, 147MB max
+    Native: 117MB min, 118MB avg, 119MB max
+
+Per-Package Stats:
+  * dev.andresual.com.kasirtoko / u0a561 / v1:
+      * dev.andresual.com.kasirtoko / u0a561 / v1:
+               TOTAL: 1.4% (30MB-33MB-38MB/26MB-28MB-33MB over 15)
+                 Top: 1.4% (30MB-33MB-38MB/26MB-28MB-33MB over 15)
+          (Last Act): 2.9% (19MB-20MB-22MB/13MB-15MB-17MB over 4)
+            (Cached): 4.6% (20MB-20MB-21MB/16MB-16MB-16MB over 3)
+
+Summary:
+  * dev.andresual.com.kasirtoko / u0a561 / v1:
+           TOTAL: 1.4% (30MB-33MB-38MB/26MB-28MB-33MB over 15)
+             Top: 1.4% (30MB-33MB-38MB/26MB-28MB-33MB over 15)
+      (Last Act): 2.9% (19MB-20MB-22MB/13MB-15MB-17MB over 4)
+        (Cached): 4.6% (20MB-20MB-21MB/16MB-16MB-16MB over 3)
+
+Run time Stats:
+  SOff/Norm: +2h29m12s194ms
+       Mod : +38m3s667ms
+       Low : +3s14ms
+  SOn /Norm: +18h5m8s598ms
+       Mod : +54m13s41ms
+       Low : +4m42s764ms
+       Crit: +19m36s669ms
+      TOTAL: +22h30m59s947ms
+
+Memory usage:
+  Kernel : 145MB (231 samples)
+  Native : 124MB (231 samples)
+  Persist: 183MB (2054 samples)
+  Top    : 239MB (5122 samples)
+  ImpFg  : 267MB (9488 samples)
+  ImpBg  : 26MB (1905 samples)
+  Backup : 255 (311 samples)
+  Service: 30MB (5424 samples)
+  Receivr: 143KB (6339 samples)
+  LastAct: 9.7MB (1319 samples)
+  CchAct : 32MB (521 samples)
+  CchCAct: 2.3MB (191 samples)
+  CchEmty: 127MB (5014 samples)
+  Cached : 491MB (231 samples)
+  Free   : 132MB (231 samples)
+  Z-Ram  : 35MB (231 samples)
+  TOTAL  : 1.8GB
+  ServRst: 102KB (2470 samples)
+
+          Start time: 2017-03-24 03:24:53
+  Total elapsed time: +1d0h53m50s427ms (partial) libart.so
+
+AGGREGATED OVER LAST 3 HOURS:
+System memory usage:
+  SOff/Norm: 2 samples:
+    Cached: 448MB min, 547MB avg, 646MB max
+    Free: 180MB min, 250MB avg, 320MB max
+    ZRam: 98MB min, 98MB avg, 98MB max
+    Kernel: 141MB min, 146MB avg, 151MB max
+    Native: 117MB min, 118MB avg, 118MB max
+  SOn /Norm: 1 samples:
+    Cached: 442MB min, 442MB avg, 442MB max
+    Free: 19MB min, 19MB avg, 19MB max
+    ZRam: 97MB min, 97MB avg, 97MB max
+    Kernel: 154MB min, 154MB avg, 154MB max
+    Native: 116MB min, 116MB avg, 116MB max
+       Mod : 1 samples:
+    Cached: 403MB min, 403MB avg, 403MB max
+    Free: 160MB min, 160MB avg, 160MB max
+    ZRam: 59MB min, 59MB avg, 59MB max
+    Kernel: 150MB min, 150MB avg, 150MB max
+    Native: 119MB min, 119MB avg, 119MB max
+       Low : 1 samples:
+    Cached: 591MB min, 591MB avg, 591MB max
+    Free: 22MB min, 22MB avg, 22MB max
+    ZRam: 97MB min, 97MB avg, 97MB max
+    Kernel: 147MB min, 147MB avg, 147MB max
+    Native: 117MB min, 117MB avg, 117MB max
+
+Per-Package Stats:
+  * dev.andresual.com.kasirtoko / u0a561 / v1:
+      * dev.andresual.com.kasirtoko / u0a561 / v1:
+               TOTAL: 10% (30MB-33MB-38MB/26MB-28MB-33MB over 15)
+                 Top: 10% (30MB-33MB-38MB/26MB-28MB-33MB over 15)
+          (Last Act): 22% (19MB-20MB-22MB/13MB-15MB-17MB over 4)
+            (Cached): 34% (20MB-20MB-21MB/16MB-16MB-16MB over 3)
+
+Summary:
+  * dev.andresual.com.kasirtoko / u0a561 / v1:
+           TOTAL: 10% (30MB-33MB-38MB/26MB-28MB-33MB over 15)
+             Top: 10% (30MB-33MB-38MB/26MB-28MB-33MB over 15)
+      (Last Act): 22% (19MB-20MB-22MB/13MB-15MB-17MB over 4)
+        (Cached): 34% (20MB-20MB-21MB/16MB-16MB-16MB over 3)
+
+Run time Stats:
+  SOff/Norm: +2m19s628ms
+  SOn /Norm: +2h34m49s891ms
+       Mod : +3m53s971ms
+       Low : +23s182ms
+       Crit: +19m11s788ms
+      TOTAL: +3h0m38s460ms
+
+Memory usage:
+  Kernel : 148MB (40 samples)
+  Native : 118MB (40 samples)
+  Persist: 188MB (147 samples)
+  Top    : 176MB (1082 samples)
+  ImpFg  : 199MB (1099 samples)
+  ImpBg  : 31MB (119 samples)
+  Service: 40MB (683 samples)
+  Receivr: 114KB (712 samples)
+  LastAct: 19MB (151 samples)
+  CchAct : 62MB (33 samples)
+  CchCAct: 12MB (33 samples)
+  CchEmty: 119MB (828 samples)
+  Cached : 506MB (40 samples)
+  Free   : 140MB (40 samples)
+  Z-Ram  : 90MB (40 samples)
+  TOTAL  : 1.8GB
+  ServRst: 3.2KB (111 samples)
+
+          Start time: 2017-03-25 01:05:31
+  Total elapsed time: +3h13m36s80ms (partial) libart.so

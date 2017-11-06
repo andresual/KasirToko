@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\KasirToko\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="E:\KasirToko\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ddc85715e0c17df496de1b324153db8c33c9cd69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\KasirToko\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3ee94ca88bb4925acb64554bf511ea83c5e969b0">
+        <dex dex="E:\KasirToko\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0fa17d0958d95aabb034ac82a4622b1dabc70df1\classes.dex" />
+    </item>
+
+</items>
